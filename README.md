@@ -4,6 +4,8 @@ Kernel Multitasking (IA-32e) desarrollado para la matería Técnicas Digitales I
 
 Autor: Leandro Beretta <lea.beretta@gmail.com> | Septiembre 2012
 
+![Kernel](kernel.png)
+
 ## Modo de uso:
 
     # Compilar el kernel
