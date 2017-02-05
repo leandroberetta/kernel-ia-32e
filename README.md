@@ -6,15 +6,17 @@ Autor: Leandro Beretta <lea.beretta@gmail.com> | Septiembre 2012
 
 ![Kernel](kernel.png)
 
-## Modo de uso:
+## Modo de uso
 
     # Compilar el kernel
+
     make
 
     # Luego de compilar, ejecutar con QEMU (la imagen es disk.img)
+
     qemu-system-x86_64 -drive format=raw,file=disk.img,index=0,if=floppy
 
-## Aclaraciones:
+## Aclaraciones
 
 * La interrupcion elegida para realizar los system calls fue la 80h
 * Cada tarea imprime su informacion en pantalla
