@@ -18,6 +18,6 @@ Autor: Leandro Beretta <lea.beretta@gmail.com> | Septiembre 2012
 
 ## Aclaraciones
 
-* La interrupcion elegida para realizar los system calls fue la 80h
-* Cada tarea imprime su informacion en pantalla
-* La tarea inicial es la idle, que en principio tiene un timeframe de 92ms (Timeframe total = 100ms) ya que inicialmente tambien se agregan las tareas 1, 2, ps y verificacion de memoria (2 ticks cada una)
+* La interrupción elegida para realizar las system calls fue la 80h
+* Cada tarea imprime su información en pantalla
+* La tarea inicial es la idle, que en principio tiene un timeframe de 92ms (Timeframe total = 100ms) ya que inicialmente también se agregan las tareas 1, 2, ps y verificacion de memoria (2 ticks cada una)
